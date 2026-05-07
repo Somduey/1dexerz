@@ -58,7 +58,7 @@ function App() {
         {/* Contact */}
         <div className="absolute top-[244px] left-[115px] flex gap-2">
           <FaInstagram id="fa-ig" className="text-white transition-transform hover:scale-110 cursor-pointer text-[16px]" onClick={()=>{window.open('https://www.instagram.com/1dexerz._/','_blank')}}/>
-          <FaGithub id="fa-git" className="text-white transition-transform hover:scale-110 cursor-pointer text-[16px]" onClick={()=>{window.open('https://github.com/SomsakSree')}}/>
+          <FaGithub id="fa-git" className="text-white transition-transform hover:scale-110 cursor-pointer text-[16px]" onClick={()=>{window.open('https://github.com/Somduey' ,'_blank')}}/>
         </div>
         {/* aboutMe */}
         <hr className="w-[541px] border-[#676767] absolute top-[276.5px]" />
