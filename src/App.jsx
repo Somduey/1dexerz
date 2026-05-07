@@ -46,7 +46,7 @@ function App() {
         <img
           src={me}
           alt="ProfileImage"
-          className="absolute top-[65px] left-[25px]"
+          className="absolute top-[65px] left-[25px] bg-transparent"
           id="ProfileImage"
         />
         <h1 className="text-white text-[24px] absolute top-[200px] left-[25px]">
