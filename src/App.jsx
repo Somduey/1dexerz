@@ -2,7 +2,7 @@ import { useState } from "react";
 import { FaInstagram } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaCircleInfo } from "react-icons/fa6";
-import me from "./assets/meAsProfile.png";
+import me from "./assets/me.png";
 import ig from "./assets/instagram.png";
 import github from "./assets/github.png";
 import html from "./assets/html.png";
