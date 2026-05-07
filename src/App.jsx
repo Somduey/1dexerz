@@ -2,7 +2,7 @@ import { useState } from "react";
 import { FaInstagram } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaCircleInfo } from "react-icons/fa6";
-import me from "./assets/me.png";
+import me from "./assets/meAsProfile.png";
 import ig from "./assets/instagram.png";
 import github from "./assets/github.png";
 import html from "./assets/html.png";
@@ -46,7 +46,7 @@ function App() {
         <img
           src={me}
           alt="ProfileImage"
-          className="absolute top-[65px] left-[25px] bg-transparent"
+          className="absolute top-[65px] left-[25px]"
           id="ProfileImage"
         />
         <h1 className="text-white text-[24px] absolute top-[200px] left-[25px]">
