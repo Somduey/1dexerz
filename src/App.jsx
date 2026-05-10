@@ -95,7 +95,7 @@ function App() {
             Programming Languages
           </p>
           {/* slideBar */}
-          <div className="absolute top-[610px] left-0 w-[541px] overflow-hidden">
+          <div className="absolute top-[610px] left-0 w-[541px] overflow-x-hidden">
             {" "}
             {/* wrapper: จำกัดขอบเขต */}
             <div id="scroll" className="flex items-center w-max">
