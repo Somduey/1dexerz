@@ -3,34 +3,34 @@ import { FaInstagram } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaCircleInfo } from "react-icons/fa6";
 import me from './assets/me.png';
-import ig from "./assets/instagram.png";
-import github from "./assets/github.png";
-import html from "./assets/html.png";
-import css from "./assets/css.png";
-import js from "./assets/js.png";
-import react from "./assets/react.png";
-import nodejs from "./assets/nodejs.png";
-import python from "./assets/python.png";
-import c from "./assets/c.png";
-import svelte from "./assets/svelte.png";
-import arduino from "./assets/arduino.png";
-import lua from "./assets/lua.png";
-import tailwind from "./assets/tailwind.png";
+import ig from "./assets/ig.svg";
+import github from "./assets/github.svg";
+import html from "./assets/html.svg";
+import css from "./assets/css.svg";
+import js from "./assets/js.svg";
+import react from "./assets/react.svg";
+import nodejs from "./assets/nodejs.svg";
+import python from "./assets/python.svg";
+import c from "./assets/c.svg";
+import svelte from "./assets/svelte.svg";
+import arduino from "./assets/arduino.svg";
+import lua from "./assets/lua.svg";
+import tailwind from "./assets/tailwind.svg";
 import "./App.css";
 
 function App() {
   const [skills, setskills] = useState({
-    HTML: <img src={html} alt="HTML" />,
-    CSS: <img src={css} alt="CSS" />,
-    JavaScript: <img src={js} alt="JavaScript" />,
-    React: <img src={react} alt="React" />,
-    NodeJs: <img src={nodejs} alt="NodeJs" className="w-[15px] h-[15px]" />,
-    "Svelte & SvelteKit": <img src={svelte} alt="Svelte" />,
-    "Arduino basics": <img src={arduino} alt="Arduino" />,
-    "Lua basic": <img src={lua} alt="Lua" />,
-    Python: <img src={python} alt="Python" />,
-    "C basics": <img src={c} alt="C" />,
-    "Tailwindcss": <img src={tailwind} alt="Tailwind CSS" />,
+    HTML: <img src={html} className="w-[16px] h-[16px]" alt="HTML" />,
+    CSS: <img src={css} className="w-[16px] h-[16px]" alt="CSS" />,
+    JavaScript: <img src={js} className="w-[16px] h-[16px]" alt="JavaScript" />,
+    React: <img src={react} className="w-[16px] h-[16px]" alt="React" />,
+    NodeJs: <img src={nodejs} className="w-[16px] h-[16px]" alt="NodeJs" />,
+    "Svelte & SvelteKit": <img src={svelte} className="w-[16px] h-[16px]" alt="Svelte" />,
+    "Arduino basics": <img src={arduino} className="w-[16px] h-[16px]" alt="Arduino" />,
+    "Lua basic": <img src={lua} className="w-[16px] h-[16px]" alt="Lua" />,
+    Python: <img src={python} className="w-[16px] h-[16px]" alt="Python" />,
+    "C basics": <img src={c} className="w-[16px] h-[16px]" alt="C" />,
+    "Tailwindcss": <img src={tailwind} className="w-[16px] h-[16px]" alt="Tailwind CSS" />,
   });
 
   return (
@@ -49,7 +49,7 @@ function App() {
           className="absolute top-[65px] left-[25px] bg-transparent bg-[#111111]"
           id="ProfileImage"
         />
-        <h1 className="text-white text-[24px] absolute top-[200px] left-[25px]">
+        <h1 id="myName" className="text-white text-[24px] absolute top-[200px] left-[25px]">
           Nonthapat Thabphan
         </h1>
         <p className="text-[16px] text-white absolute top-[238px] left-[25px] font-light">
