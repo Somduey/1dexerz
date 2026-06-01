@@ -40,13 +40,13 @@ function App() {
     >
       <div
         id="bg"
-        className="bg-[url('./assets/bg.png')] w-[541px] h-[984px] relative"
+        className="bg-[url('./assets/bg.png')] bg-[#111111] w-[541px] h-[984px] relative"
       >
         {/* Profile Image and name */}
         <img
           src={me}
           alt="ProfileImage"
-          className="absolute top-[65px] left-[25px] bg-transparent bg-[#111111]"
+          className="absolute top-[65px] left-[25px]"
           id="ProfileImage"
         />
         <h1 id="myName" className="text-white text-[24px] absolute top-[200px] left-[25px]">
